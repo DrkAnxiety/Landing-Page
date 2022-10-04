@@ -12,4 +12,14 @@
     -webkit-box-shadow: 1px 3px 12px -2px rgba(0, 0, 0, 0.85);
     -moz-box-shadow: 1px 3px 12px -2px rgba(0, 0, 0, 0.85);
   }
+
+  .bg-card {
+    background: url('./images/bathroom-two.jpeg');
+    @apply bg-cover;
+  }
+
+  .bg-work{
+    background: url('./images/bg-work.jpeg');
+    @apply bg-cover bg-no-repeat bg-center;
+  }
 }

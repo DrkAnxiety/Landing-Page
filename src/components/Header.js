@@ -1,42 +1,34 @@
+import { FaBath } from 'react-icons/fa'
+
 export const Header = () => {
   return (
-    <header className='h-14 w-full bg-slate-200 flex justify-center items-center shadow-md'>
-      <div className='w-full flex justify-between items-center px-10 '>
-        <p className='text-xl font-bold'>LOGO</p>
-        <nav className='flex'>
-          <ul className='flex w-full gap-8'>
-            <li className='border-b-2 hover:border-b-2 transition duration-500 hover:border-slate-500'>
-              Home
+    <header className='h-20 w-full flex justify-evenly items-center bg-slate-200'>
+      <section className='flex justify-center items-center gap-3'>
+        <FaBath className='text-4xl' />
+        <h1 className='font-bold text-4xl'>MADE</h1>
+      </section>
+      <section className='w-1/2'>
+        <nav className='flex justify-center w-full items-center'>
+          <ul className=' flex justify-evenly items-center w-full'>
+            <li className='border-b-2 border-transparent hover:border-slate-600 transition duration-400 text-xl'>
+              Our Difference
             </li>
-            <li className='border-b-2 hover:border-b-2 transition duration-500 hover:border-slate-500'>
-              About
+            <li className='border-b-2 border-transparent hover:border-slate-600 transition duration-400 text-xl'>
+              Our Style
             </li>
-            <li className='border-b-2 hover:border-b-2 transition duration-500 hover:border-slate-500'>
-              Support
+            <li className='border-b-2 border-transparent hover:border-slate-600 transition duration-400 text-xl'>
+              About US
             </li>
-            <li className='border-b-2 hover:border-b-2 transition duration-500 hover:border-slate-500'>
-              Platforms
-            </li>
-            <li className='border-b-2 hover:border-b-2 transition duration-500 hover:border-slate-500'>
-              Pricing
+            <li className='border-b-2 border-transparent hover:border-slate-600 transition duration-400 text-xl'>
+              How it Works
             </li>
           </ul>
         </nav>
-        <div className='flex gap-6'>
-          <button
-            className='border-2 cursor-pointer border-purple-700 btn-p transition 
-            duration-400 rounded-md hover:bg-purple-500 hover:text-white'
-          >
-            Sing In
-          </button>
-          <button
-            className='border-2 cursor-pointer border-purple-700 bg-purple-500 transition
-            duration-400 text-white btn-p hover:bg-transparent hover:text-black rounded-md'
-          >
-            Sing Up
-          </button>
-        </div>
-      </div>
+      </section>
+      <section className='flex gap-4'>
+        <p className='font-bold text-slate-700 text-xl'>Live Chat</p>
+        <p className='font-bold text-slate-700 text-xl'>{`(888) 840-0280`}</p>
+      </section>
     </header>
   )
 }

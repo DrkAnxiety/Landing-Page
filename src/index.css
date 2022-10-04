@@ -5,6 +5,11 @@
 @layer base {
   /* ===== Clases personalizadas aqui !!! ======*/
   .btn-p {
-    @apply px-4 py-1.5
+    @apply px-4 py-1.5;
+  }
+  .sh-box {
+    box-shadow: 1px 3px 12px -2px rgba(0, 0, 0, 0.85);
+    -webkit-box-shadow: 1px 3px 12px -2px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: 1px 3px 12px -2px rgba(0, 0, 0, 0.85);
   }
 }

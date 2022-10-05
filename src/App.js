@@ -4,6 +4,7 @@ import { Home } from './pages/Home'
 import { Footer } from './components/Footer'
 import { OurStyle } from './pages/OurStyle'
 import { OurWork } from './pages/OurWork'
+import { OurCommunity } from './pages/OurCommunity'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Home />
         <About />
         <OurStyle />
+        <OurCommunity />
         <OurWork />
       </main>
 

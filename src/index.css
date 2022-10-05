@@ -22,4 +22,20 @@
     background: url('./images/bg-work.jpeg');
     @apply bg-cover bg-no-repeat bg-center;
   }
+
+  .bg-wone {
+    background: url('./images/work-one.jpeg');
+    @apply bg-cover bg-no-repeat bg-center;
+  }
+
+  .bg-wtwo {
+    background: url('./images/work-two.jpeg');
+    @apply bg-cover bg-no-repeat bg-center;
+  }
+
+  .bg-wthree {
+    background: url('./images/work-three.jpeg');
+    @apply bg-cover bg-no-repeat bg-center;
+  }
 }
+
